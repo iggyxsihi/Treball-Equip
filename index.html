@@ -1,0 +1,18 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<link rel="stylesheet" href="./main.css">
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<title> TowerDefense - Menu </title>
+	</head>
+	<body>
+		<div id="menu">
+			<p class="menu-object title">Tower Defense</p>
+			<button class="menu-object" v-on:click="startGame">Start Game</button>
+			<button class="menu-object" v-on:click="load">Load Game</button>
+			<button class="menu-object" v-on:click="options">Options</button>
+			<button class="menu-object" v-on:click="exit">Exit</button>
+		</div>
+		<script src="./menu.js"></script>
+	</body>
+</html>
